@@ -8,8 +8,8 @@ import java.util.Date
 @Entity(tableName = "carro")
 
 data class ModeloCarro(
-   @PrimaryKey(true) @ColumnInfo(name = "placa") val placa: String,
+   @PrimaryKey @ColumnInfo(name = "placa") val placa: String,
     @ColumnInfo(name = "modelo")val modelo: String,
     @ColumnInfo(name = "color")val color: String,
-    @ColumnInfo(name = "año")val año: Date,
+    @ColumnInfo(name = "año")val anio: String,
 )

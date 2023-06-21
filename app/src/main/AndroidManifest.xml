@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Manejo_taller"
         tools:targetApi="31">
         <activity
+            android:name=".ServicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarTipoServicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarModeloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarClienteActicity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

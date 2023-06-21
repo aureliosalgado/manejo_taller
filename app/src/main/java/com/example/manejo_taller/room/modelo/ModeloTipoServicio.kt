@@ -4,7 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "Servicio")
+@Entity(tableName = "servicio_tipo")
 data class ModeloTipoServicio(
-    @PrimaryKey(true) @ColumnInfo(name = "NombreSer") val NombreSer: String,
-)
+    @PrimaryKey @ColumnInfo(name = "nombre_ser") val NombreSer: String)
+

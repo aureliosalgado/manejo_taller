@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_cliente"
+        android:title="Agregar Cliente" />
+    <item
+        android:id="@+id/menu_auto"
+        android:title="Modelo Auto" />
+    <item
+        android:id="@+id/menu_tipo_servicio"
+        android:title="Tipo de Servicio" />
+    <item
+        android:id="@+id/menu_servicio"
+        android:title="Servicio" />
+    <item
+        android:id="@+id/menu_acerca_de"
+        android:title="Acerca de" />
+    <item
+        android:id="@+id/menu_salir"
+        android:title="Salir" />
+</menu>

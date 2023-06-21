@@ -4,11 +4,18 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.manejo_taller.room.dao.CarroDaos
+import com.example.manejo_taller.room.dao.ClienteDaos
+import com.example.manejo_taller.room.dao.ServicioDaos
+import com.example.manejo_taller.room.dao.TipoServicioDaos
 
-@Database(entities = [ModeloCarro::class,ModeloTipoServicio::class], version = 1)
+@Database(entities = [ModeloCarro::class,ModeloTipoServicio::class,ModeloCliente::class, ModeloServicio::class], version = 1)
 abstract class BaseDatosTaller :RoomDatabase(){
-    abstract fun ModeloCarro():ModeloCarro
-    abstract fun ModeloTipoServicio() : ModeloTipoServicio
+abstract fun CarroDaos():CarroDaos
+abstract fun ServicioDaos():ServicioDaos
+abstract fun ClienteDaos():ClienteDaos
+abstract fun TipoServicioDaos():TipoServicioDaos
+
     companion object {
         // Singleton prevents multiple instances of database opening at the
         // same time.
