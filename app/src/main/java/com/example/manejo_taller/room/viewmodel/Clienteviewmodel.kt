@@ -26,4 +26,8 @@ class Clienteviewmodel (application: Application) : AndroidViewModel(application
         viewModelScope.launch(Dispatchers.IO) {
             repository.eliminarCliente(cliente)
         }
+    fun actualizarCliente(cliente: ModeloCliente) =
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.actualizarCliente(cliente)
+        }
 }

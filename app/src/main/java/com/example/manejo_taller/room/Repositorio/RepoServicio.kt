@@ -18,4 +18,7 @@ class RepoServicio constructor(
     suspend fun eliminarServicio(servicio: ModeloServicio){
         sevicioDaos.eliminarServicio(servicio)
     }
+    suspend fun actualizarServicio(servicio: ModeloServicio){
+        sevicioDaos.actualizarServicio(servicio)
+    }
 }

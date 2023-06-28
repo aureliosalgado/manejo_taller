@@ -17,4 +17,8 @@ class RepoCarro constructor(
     suspend fun eliminarCarro(carro: ModeloCarro){
         CarroDaos.eliminarModelo(carro)
     }
+
+    suspend fun actalizarCarro(carro: ModeloCarro){
+        CarroDaos.actualizarModelo(carro)
+    }
 }

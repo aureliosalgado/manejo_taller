@@ -17,4 +17,7 @@ class RepoTipoServicio constructor(
     suspend fun eliminarTipoServicio(tipoServicio: ModeloTipoServicio){
         tipoServicioDaos.eliminarTipoServicio(tipoServicio)
     }
+    suspend fun actualizarTipoServicio(tipoServicio: ModeloTipoServicio){
+        tipoServicioDaos.actualizarTipoServicio(tipoServicio)
+    }
 }

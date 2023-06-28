@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "559834152113",
+    "project_id": "firetaller-d6ffc",
+    "storage_bucket": "firetaller-d6ffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559834152113:android:460762b307df1adaaa3690",
+        "android_client_info": {
+          "package_name": "com.example.manejo_taller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559834152113-9o3js56osfu1vo5piflhs2jum4d0dkdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manejo_taller",
+            "certificate_hash": "7f20ff5cb1a049560c48cc6ad615456f04b0cc2d"
+          }
+        },
+        {
+          "client_id": "559834152113-cf8fr8gsjhul6ik4vgpmggil7p1e0r04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6ahVusXC6h1x8IZXnW6RupG-l3PMxGN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559834152113-cf8fr8gsjhul6ik4vgpmggil7p1e0r04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

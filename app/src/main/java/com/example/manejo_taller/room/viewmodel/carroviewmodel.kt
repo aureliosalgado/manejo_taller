@@ -26,4 +26,9 @@ class carroviewmodel (application: Application) : AndroidViewModel(application) 
         viewModelScope.launch(Dispatchers.IO) {
             repository.eliminarCarro(carro)
         }
+
+    fun actualizarCarro(carro: ModeloCarro) =
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.actalizarCarro(carro)
+        }
 }

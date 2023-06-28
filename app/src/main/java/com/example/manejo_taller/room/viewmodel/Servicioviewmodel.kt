@@ -27,4 +27,8 @@ class Servicioviewmodel (application: Application) : AndroidViewModel(applicatio
         viewModelScope.launch(Dispatchers.IO) {
             repository.eliminarServicio(servicio)
         }
+    fun actualizarServicio(servicio: ModeloServicio) =
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.actualizarServicio(servicio)
+        }
 }

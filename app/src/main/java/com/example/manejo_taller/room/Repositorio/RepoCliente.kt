@@ -18,4 +18,7 @@ class RepoCliente constructor(
     suspend fun eliminarCliente(cliente: ModeloCliente){
         ClienteDaos.eliminarCliente(cliente)
     }
+    suspend fun actualizarCliente(cliente: ModeloCliente){
+        ClienteDaos.actualizarCliente(cliente)
+    }
 }

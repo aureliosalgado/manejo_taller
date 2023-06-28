@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Manejo_taller"
         tools:targetApi="31">
         <activity
+            android:name=".ActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actualizar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ServicioActivity"
             android:exported="false" />
         <activity
@@ -24,7 +33,7 @@
             android:name=".AgregarClienteActicity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Autentificar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
